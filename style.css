@@ -105,6 +105,7 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 25rem;
 }
 
 .todo li {
@@ -155,4 +156,4 @@ select {
   background-color: #5ebe92;
 }
 
-/* 46. dk devam */
+/* 1.05'ten devam */
