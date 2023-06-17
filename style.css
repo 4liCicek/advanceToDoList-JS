@@ -79,6 +79,7 @@ select {
   padding: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  pointer-events: none;
 }
 
 .select:hover::after {
@@ -163,4 +164,9 @@ select {
   opacity: 0;
 }
 
-/* 1.17'den devam */
+.completed {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+/* 1.20'den devam */
