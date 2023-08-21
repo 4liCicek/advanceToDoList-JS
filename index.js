@@ -161,7 +161,6 @@ function getTodos() {
     todoList.appendChild(todoDIv);
   });
 }
-
 function removeLocaleStorage(todo) {
   let todos;
   if (localStorage.getItem("todos") === null) {
